@@ -1,0 +1,36 @@
+h2{
+    color: navy;
+}
+h1{
+    color: navy;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+
+    font-family: serif;
+    font-size: larger;
+    
+}
+p{
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700px;
+}
+#img{
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px 2px;
+    margin: 20px;
+    padding: 20px;
+}
+@media screen and (max-width: 750px) {
+    #info{
+        font-size:xx-large;
+    }
+    #cont{
+        font-size: x-large;
+    }
+    
+}
